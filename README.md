@@ -7,6 +7,10 @@ A straightforward web application to format phone numbers in a clean, readable f
 - **Input:** 9876543210
 - **Formatted Output:** +(987) - 6543210
 
+## Demo
+
+🌐 https://iamgourabtalukdar.github.io/telephone-formatter/
+
 ### Features
 
 - **Real-time Formatting**: Automatically formats the phone number as you type.
