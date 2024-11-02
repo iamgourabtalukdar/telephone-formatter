@@ -1,0 +1,52 @@
+:root {
+  --black: rgb(31, 33, 36);
+  --white: rgb(255, 255, 255);
+  --green: rgb(22, 228, 151);
+  --disabled-green: rgba(22, 228, 152, 0.6);
+  --box-shadow: 0 0 10px 6px rgba(22, 228, 151, 0.3);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+*:focus {
+  box-shadow: var(--box-shadow);
+}
+body {
+  background-color: var(--black);
+  color: var(--white);
+  min-height: 100vh;
+  text-align: center;
+}
+h1.heading {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+input {
+  padding: 0.6rem 1rem;
+  outline: none;
+  border-radius: 0.2rem;
+  font-size: 1.2rem;
+  max-width: 400px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+input:hover {
+  box-shadow: var(--box-shadow);
+}
+footer {
+  margin-top: 4rem;
+}
+footer p {
+  font-size: 1.1rem;
+}
+footer p a {
+  color: var(--green);
+}
